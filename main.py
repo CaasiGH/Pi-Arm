@@ -7,15 +7,15 @@ kit.servo[0].set_pulse_width_range(400, 2500)
 kit.servo[1].set_pulse_width_range(400, 2500)
 
 kit.servo[0].angle = 0
-time.sleep(1)
+time.sleep(2)
 kit.servo[0].angle = 180
-time.sleep(1)
+time.sleep(2)
 kit.servo[0].angle = 0
-time.sleep(1)
+time.sleep(2)
 
 kit.servo[1].angle = 0
-time.sleep(1)
+time.sleep(2)
 kit.servo[1].angle = 180
-time.sleep(1)
+time.sleep(2)
 kit.servo[1].angle = 0
-time.sleep(1)
+time.sleep(2)
