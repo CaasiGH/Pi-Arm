@@ -8,3 +8,4 @@ kit.servo[0].angle = 180
 kit.servo[0].angle = 90
 kit.servo[0].angle = 135
 kit.servo[0].angle = 45
+kit.servo[0].angle = 0
