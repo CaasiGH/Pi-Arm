@@ -6,8 +6,11 @@ kit = ServoKit(channels=16)
 kit.servo[0].set_pulse_width_range(400, 2500)
 
 kit.servo[0].angle = 0
+print("Angle: 0")
 time.sleep(2)
 kit.servo[0].angle = 180
+print("Angle: 180")
 time.sleep(2)
 kit.servo[0].angle = 0
+print("Angle: 0")
 time.sleep(2)
